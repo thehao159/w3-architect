@@ -1,0 +1,11 @@
+1.  Header
+
+2.  Slider
+
+3.  Content
+    + Projects
+    + About
+    + Contact
+    + Map
+    
+4.  Footer
