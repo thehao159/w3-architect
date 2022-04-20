@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 html {
@@ -11,6 +11,10 @@ html {
 }
 
 /* Common */
+img {
+    width: 100%;
+}
+
 .pull-left {
     float: left;
 }
@@ -33,6 +37,30 @@ html {
     color: #000;
 }
 
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding: 16px 8px 0;
+}
+
+.col-four {
+    width: 25%;
+}
+
 /*----------Header----------*/
 .header {
     position: fixed;
@@ -41,7 +69,7 @@ html {
     left: 0;
     background-color: #fff;
     padding: 8px 16px;
-    box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px rgba(0, 0, 0, 0.16);
     z-index: 9999;
 }
 
@@ -66,12 +94,11 @@ html {
 .slider {
     position: relative;
     margin: 0 94px;
-    margin-top: 54.5px;
-    padding-top: 50%;
+    padding-top: 48%;
     font-size: 36px;
     align-items: center;
     justify-items: center;
-    background: url("../img/Slider/Slider1.jpg") top center / cover no-repeat;
+    background: url("../img/Sliders/Slider1.jpg") top center / cover no-repeat;
 }
 
 .slider .logo {
@@ -90,7 +117,39 @@ html {
 /*----------End Slider----------*/
 
 /*----------Content----------*/
-.content {height: 1000px;}
+.content {
+    margin: 0 94px;
+}
+
+.content-section {
+    margin-top: 66px;
+}
+
+.content-section .heading-section {
+    font-size: 24px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #ccc;
+}
+
+/*-----Project-----*/
+.projects-list {
+    margin-top: 26px;
+}
+
+.projects-list .img-place {
+    position: relative;
+}
+
+.projects-list .img-place .sub-project {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 16px;
+}
+/*-----End Project-----*/
 /*----------End Content----------*/
 
 /*----------Footer----------*/
