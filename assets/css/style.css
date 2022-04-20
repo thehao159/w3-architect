@@ -15,6 +15,14 @@ html {
     float: left;
 }
 
+.text-white {
+    color: #fff !important;
+}
+
+.character-space {
+    letter-spacing: 4px;
+}
+
 .btn{
     text-decoration: none;
     font-size: 15px;
@@ -31,6 +39,7 @@ html {
     top: 0;
     right: 0;
     left: 0;
+    background-color: #fff;
     padding: 8px 16px;
     box-shadow: 0 2px rgba(0, 0, 0, 0.2);
     z-index: 9999;
@@ -49,17 +58,39 @@ html {
     display: inline-block;
     color: #000;
     line-height: 1.5em;
-    letter-spacing: 4px;
     padding: 8px 16px;
 }
 /*----------End Header----------*/
 
 /*----------Slider----------*/
-.slider {height: 10000px;}
+.slider {
+    position: relative;
+    margin: 0 94px;
+    margin-top: 54.5px;
+    padding-top: 50%;
+    font-size: 36px;
+    align-items: center;
+    justify-items: center;
+    background: url("../img/Slider/Slider1.jpg") top center / cover no-repeat;
+}
+
+.slider .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 0 2px #000;
+}
+
+.slider .logo  b {
+    padding: 16px;
+    background-color: #000;
+    opacity: 0.75;
+}
 /*----------End Slider----------*/
 
 /*----------Content----------*/
-.content {}
+.content {height: 1000px;}
 /*----------End Content----------*/
 
 /*----------Footer----------*/
