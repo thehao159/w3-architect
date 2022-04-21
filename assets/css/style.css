@@ -10,11 +10,16 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Common */
 img {
     width: 100%;
 }
 
+p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Common */
 .pull-left {
     float: left;
 }
@@ -29,11 +34,11 @@ img {
 
 .btn{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .btn:hover {
-    background-color: #ccc;
+    background-color: #ccc !important;
     color: #000;
 }
 
@@ -131,7 +136,7 @@ img {
     border-bottom: 1px solid #f1f1f1;
 }
 
-.main-section {
+.content-section .main-section {
     margin-top: 26px;
 }
 
@@ -156,11 +161,6 @@ img {
 /*-----End Project-----*/
 
 /*-----About-----*/
-.about-text {
-    font-size: 15px;
-    line-height: 1.5;
-}
-
 .membes-list {
     margin-top: 48px;
     margin-bottom: 8px;
@@ -183,12 +183,34 @@ img {
 
 .membes-list .contact-btn {
     display: block;
-    margin-top: 15px;
+    padding: 8px 0;
+    margin: 15px 0;
+    background-color: #f1f1f1;
     color: #000;
     text-align: center;
-    padding: 8px 0;
 }
 /*-----End About-----*/
+
+/*-----Contact-----*/
+.contact-form input {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.contact-form .submit-btn {
+    width: auto;
+    margin-top: 32px;
+    padding: 10px 16px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
+}
+/*-----End Contact-----*/
 /*----------End Content----------*/
 
 /*----------Footer----------*/
