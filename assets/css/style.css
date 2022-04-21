@@ -54,7 +54,7 @@ img {
 
 .col {
     float: left;
-    padding: 16px 8px 0;
+    padding: 0 8px;
 }
 
 .col-four {
@@ -128,19 +128,23 @@ img {
 .content-section .heading-section {
     font-size: 24px;
     padding-bottom: 26px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #f1f1f1;
 }
 
-/*-----Project-----*/
-.projects-list {
+.main-section {
     margin-top: 26px;
 }
 
-.projects-list .img-place {
+/*-----Project-----*/
+.project-item {
+    padding-top: 16px;
+}
+
+.project-item .img-project-place {
     position: relative;
 }
 
-.projects-list .img-place .sub-project {
+.project-item .img-project-place .sub-project {
     position: absolute;
     top: 0;
     left: 0;
@@ -150,6 +154,41 @@ img {
     padding: 10px 16px;
 }
 /*-----End Project-----*/
+
+/*-----About-----*/
+.about-text {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.membes-list {
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+
+.membes-list .member-ava {
+    filter: grayscale(80%)
+}
+
+.membes-list .member-name {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.membes-list .member-position {
+    margin: 15px 0;
+    opacity: 0.6;
+}
+
+.membes-list .contact-btn {
+    display: block;
+    margin-top: 15px;
+    color: #000;
+    text-align: center;
+    padding: 8px 0;
+}
+/*-----End About-----*/
 /*----------End Content----------*/
 
 /*----------Footer----------*/
