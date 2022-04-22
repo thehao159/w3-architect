@@ -121,6 +121,12 @@ p {
     background-color: #000;
     opacity: 0.75;
 }
+
+.slider .logo  p {
+    display: inline-block;
+    color: #fff;
+    font-size: 36px;
+}
 /*----------End Slider----------*/
 
 /*----------Content----------*/
