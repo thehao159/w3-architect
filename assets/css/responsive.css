@@ -14,3 +14,34 @@
         margin-right: 32px;
     }
 }
+
+/* Mobile */
+@media (max-width: 739px) {
+    .s-col-full {
+        width: 100%;
+    }
+
+    .header a {
+        padding: 10px 16px;
+    }
+
+    .header .nav {
+        display: none;
+    }
+
+    .slider .logo p {
+        display: none;
+    }
+
+    .membes-list .contact-btn {
+        padding: 12px 0;
+    }
+
+    .contact-form input {
+        padding: 12px 8px;
+    }
+
+    .contact-form .submit-btn {
+        padding: 12px 16px;
+    }
+}
