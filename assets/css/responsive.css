@@ -1,0 +1,16 @@
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+    .m-col-second {
+        width: 50%;
+    }
+
+    .slider {
+        margin: 0px;
+        padding-top: 54%;
+    }
+
+    .content {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+}

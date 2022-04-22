@@ -40,7 +40,7 @@ p {
 
 .btn:hover {
     background-color: #ccc !important;
-    color: #000;
+    color: #000 !important;
 }
 
 .mt-16 {
@@ -60,7 +60,7 @@ p {
 
 .col {
     float: left;
-    padding: 0 8px;
+    padding: 16px 8px 0;
 }
 
 .col-four {
@@ -113,6 +113,8 @@ p {
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
     text-shadow: 0 2px #000;
 }
 
@@ -135,7 +137,7 @@ p {
 }
 
 .content-section {
-    margin-top: 66px;
+    padding-top: 66px;
 }
 
 .content-section .heading-section {
@@ -149,15 +151,11 @@ p {
 }
 
 /*-----Project-----*/
-.project-item {
-    padding-top: 16px;
-}
-
-.project-item .img-project-place {
+.img-project-place {
     position: relative;
 }
 
-.project-item .img-project-place .sub-project {
+.img-project-place .sub-project {
     position: absolute;
     top: 0;
     left: 0;
@@ -232,6 +230,8 @@ p {
     color: #fff;
     margin-top: 8px;
     padding: 30px 0;
+    font-size:15px;
+    line-height: 1.5;
     text-align: center;
 }
 
